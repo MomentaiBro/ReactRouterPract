@@ -1,11 +1,11 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
+import '../App.css'
 
 function Nav() {
     return (
         <nav>
             <h3>LOGO</h3>
-            <ul>
+            <ul className="nav-links">
                 <li>About</li>
                 <li>Shop</li>
             </ul>
@@ -13,4 +13,4 @@ function Nav() {
     );
 }
 
-export default App;
+export default Nav;
