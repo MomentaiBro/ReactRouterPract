@@ -4,10 +4,17 @@
 
 nav{ 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   min-height: 10vh;
   background: rgb(71, 121, 146);
-  color: white
+  color: whitesmoke;
+}
 
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
